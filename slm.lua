@@ -590,7 +590,7 @@ local FarmTab = Window:MakeTab({
 })
 FarmTab:AddToggle({
     Name = "AutoFarm",
-    Default = false,
+    Default = true,
     Callback = function(Value)
         _G.Settings.Main["AutoFarm"] = va
     StopTween(va)
